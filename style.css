@@ -18,7 +18,9 @@ html {
 }
 
 .explore {
-
+    background: linear-gradient(0.25turn, #4d6961, #3b3b3b );
+    background-color: black;
+    padding-bottom: 15px;
 }
 .exploreFlex {
     display: flex;
@@ -92,6 +94,11 @@ input:focus, textarea:focus, select:focus{
     padding-bottom: 1rem;
 }
 
+.cardFlex {
+    display: flex;
+    gap: 30px;
+}
+
 .card {
     /* Change background color */
     background-color: rgb(255, 255, 255);
@@ -101,6 +108,11 @@ input:focus, textarea:focus, select:focus{
   
     border-radius: 12px;
     color: white;
+    transition: transform 1s ease;
+  }
+  .card:hover {
+      transform: scale(1.02);
+      cursor: pointer;
   }
 
 .card img {
@@ -108,24 +120,32 @@ input:focus, textarea:focus, select:focus{
     height: 200px;
     object-fit: cover;
     border: none;
+    width: 400px;
 }
 
 .tag {
     padding: 4px 8px;
-    border: 1px solid #000000;
+    border: 1px solid #027c02;
   
     border-radius: 50px;
     font-size: 12px;
     font-weight: 600;
     color: #000000;
   }
+  .ratingsFlex {
+      display: flex;
+      gap: 5px;
+  }
   .stars {
     color: rgb(255, 217, 0);
+  }
+  .reviewCount {
+      color: black;
   }
   .name {
     font-size: 24px;
     font-weight: 600;
-    color: black;
+    color: rgb(45, 173, 6);
     margin-top: 16px;
   }
   p {
