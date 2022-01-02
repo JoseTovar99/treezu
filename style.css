@@ -14,7 +14,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 800px;
+    height: 830px;
 }
 
 .explore {
@@ -191,4 +191,29 @@ input:focus, textarea:focus, select:focus{
   }
   .card__details {
     padding: 16px 8px 8px 8px;
+  }
+
+
+  .middleText {
+      text-align: center;
+      padding-top: 2rem;
+  }
+
+
+  .section3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hiking.jfif');
+      margin-top: 2rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .section3 .leftText {
+      font-size: 2rem;
+      color: white;
+  }
+  .trailPic img {
+      width: 500px;
   }
