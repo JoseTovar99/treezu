@@ -35,23 +35,42 @@ html {
     justify-content: start;
     align-items: center;
 }
-.nav {
-    display: flex;
+.nav h3 {
+    display: inline-block;
+    position: relative;
     gap: 30px;
     margin-top: 20px;
     color: white;
     font-size: 1.3rem;
     margin-right: 3rem;   
+    cursor: pointer;
+    transition: all 0.5s ease;
+
 }
+.nav h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(45, 173, 6);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    margin-bottom: -4px;
+    cursor: pointer;
 
-.nav h3 {
-    transition: all .2s ease-in;
-
+}
+.nav h3:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
 }
 .nav h3:hover {
-    cursor: pointer;
-    color: rgb(81, 192, 81);
+    color: rgb(194, 194, 194);
 }
+
 
 .searchTitle {
     color: white;
@@ -61,15 +80,32 @@ html {
 }
 .searchBar {
     text-align: center;
-    margin-top: 2rem;
 }
+.searchBar i {
+    position: absolute;
+}
+.searchBar .fas {
+    padding: 10px;
+	min-width: 30px;
+}
+.searchBar form .fas {
+    color: black;
+    margin-top: 2px;
+    font-size: 1.3rem;
+}
+.searchBar form {
+    margin-top: 1.5rem;
+}
+
 .searchBar #searchInput {
     color: rgb(0, 0, 0);
     border-radius: 20px;
     padding: 15px;
     font-size: 1.3rem;
     border: none;
-    width: 600px;
+    width: 100%;
+	padding: 10px;
+	text-align: center;
 }
 .searchBar .fas {
     color: white;
