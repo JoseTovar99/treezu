@@ -79,17 +79,22 @@ input:focus, textarea:focus, select:focus{
 .popularTrails {
     max-width: 560px;
     margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
 }
 
 .popularTitle {
     color: white;
     margin-top: 5rem;
-    margin-left: 5rem;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
 }
 
 .card {
     /* Change background color */
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
     
     /* Add space between the border and the content */
     padding: 8px;
@@ -104,3 +109,30 @@ input:focus, textarea:focus, select:focus{
     object-fit: cover;
     border: none;
 }
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #000000;
+  
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+  }
+  .stars {
+    color: rgb(255, 217, 0);
+  }
+  .name {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-top: 16px;
+  }
+  p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 150%;
+  }
+  .card__details {
+    padding: 16px 8px 8px 8px;
+  }
