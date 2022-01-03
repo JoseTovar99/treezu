@@ -35,6 +35,7 @@ html {
     justify-content: start;
     align-items: center;
 }
+
 .nav h3 {
     display: inline-block;
     position: relative;
@@ -271,7 +272,6 @@ input:focus, textarea:focus, select:focus{
   .leftText h4 {
       margin-top: 2rem;
       font-size: 1.5rem;
-      font-weight: lighter;
   }
   .leftText .greenAdventure {
       color: rgb(49, 218, 7);
@@ -336,10 +336,50 @@ input:focus, textarea:focus, select:focus{
       width: 600px;
   }
 
+  .campingTitle {
+      border: 3px solid rgb(34, 145, 7);
+      padding: 10px;
+  }
+
   .campingTitle hr {
       width: 100px;
       background-color: rgb(49, 218, 7);
       border: none;
       height: 4px;
       margin-top: 1rem;
+  }
+
+  footer {
+      padding: 10px;
+  }
+  p {
+      font-size: 1rem;
+      color: white;
+  }
+
+  .rowSections {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2rem;
+  }
+  .firstColumn h5 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 1.5rem;
+      transition: all 0.5s ease;
+  }
+  .firstColumn h5:hover {
+      cursor: pointer;
+      color: gray;
+  }
+
+  .copyright {
+    padding: 5px;
+    font-size: 1rem;
+    background: #222;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
   }
