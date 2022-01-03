@@ -9,7 +9,8 @@ html {
 }
 
 .container {
-    background: url(img/yosemite2.jpg) no-repeat center center fixed; 
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/yosemite2.jpg') fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,7 +68,7 @@ html {
   cursor: pointer;
 }
 .nav h3:hover {
-    color: rgb(194, 194, 194);
+    color: rgb(145, 145, 145);
 }
 
 
@@ -125,7 +126,7 @@ input:focus, textarea:focus, select:focus{
 .popularTitle {
     color: white;
     margin-top: 5rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -202,10 +203,15 @@ input:focus, textarea:focus, select:focus{
       padding-top: 2rem;
       font-size: 1.3rem;
   }
+  .middleText h1 {
+    background: -webkit-linear-gradient( #526d65, #4daa25);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .middleText hr {
       width: 100px;
       margin: auto;
-      background-color: rgb(49, 218, 7);
+      background-color: rgb(45, 173, 6);
       height: 5px;
       border: none;
       margin-top: 1rem;
@@ -216,13 +222,13 @@ input:focus, textarea:focus, select:focus{
       margin-top: 2rem;
       margin: 20px;
       border-radius: 15px;
-      padding: 30px;
+      padding: 50px;
   }
   .iconRow i {
       font-size: 3rem;
-      background:-moz-linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%); 
-      background: -webkit-linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%); 
-      background: linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%);
+      background:-moz-linear-gradient(0.25turn, #475f58 0%, #4daa25 100%); 
+      background: -webkit-linear-gradient(0.25turn, #475f58 0%, #4daa25 100%); 
+      background: linear-gradient(0.25turn, #475f58 0%, #4daa25 100%);
       -webkit-background-clip: text;
       -moz-background-clip: text;
       background-clip: text;
@@ -235,7 +241,7 @@ input:focus, textarea:focus, select:focus{
       align-items: center;
   }
   .firstRow #underIcon {
-      background-color: rgb(49, 218, 7);
+      background-color: rgb(45, 173, 6);
       border: none;
       height: 2px;
       width: 50px;
@@ -252,7 +258,7 @@ input:focus, textarea:focus, select:focus{
       align-items: center;
       justify-content: space-around;
       padding: 20px;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hiking.jfif');
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hiking.jfif') fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 500px;
@@ -265,6 +271,7 @@ input:focus, textarea:focus, select:focus{
   .leftText h4 {
       margin-top: 2rem;
       font-size: 1.5rem;
+      font-weight: lighter;
   }
   .leftText .greenAdventure {
       color: rgb(49, 218, 7);
@@ -273,7 +280,7 @@ input:focus, textarea:focus, select:focus{
       width: 100px;
       margin-top: 1rem;
       height: 5px;
-      background-color: rgb(49, 218, 7);
+      background-color: rgb(45, 173, 6);
       border: none;
   }
   .trailPic img {
@@ -295,4 +302,44 @@ input:focus, textarea:focus, select:focus{
   .btnPro:hover {
       color: white;
       cursor: pointer;
+  }
+  .btnPro2 {
+    background-color: transparent;
+    border: 2px solid;
+    color: rgb(49, 218, 7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+.btnPro2:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+  
+  .section4 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 2rem;
+      background-color: rgba(211, 211, 211, 0.37);
+      padding: 20px;
+      margin: 20px;
+  }
+  .section4 h2 {
+      font-size: 2.5rem;
+      width: 500px;
+  }
+  .section4 img {
+      width: 600px;
+  }
+
+  .campingTitle hr {
+      width: 100px;
+      background-color: rgb(49, 218, 7);
+      border: none;
+      height: 4px;
+      margin-top: 1rem;
   }
