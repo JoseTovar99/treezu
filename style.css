@@ -127,7 +127,7 @@ input:focus, textarea:focus, select:focus{
 .popularTitle {
     color: white;
     margin-top: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -354,7 +354,6 @@ input:focus, textarea:focus, select:focus{
   }
   p {
       font-size: 1rem;
-      color: white;
   }
 
   .rowSections {
@@ -382,4 +381,8 @@ input:focus, textarea:focus, select:focus{
     text-align: center;
     color: #fff;
     margin-top: 2rem;
+  }
+
+  .footerColor {
+      color: white;
   }
