@@ -14,12 +14,11 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 830px;
+    height: 850px;
 }
 
 .explore {
-    background: linear-gradient(0.25turn, #4d6961, #3b3b3b );
-    background-color: black;
+    background-color: white;
     padding-bottom: 15px;
 }
 .exploreFlex {
@@ -40,7 +39,7 @@ html {
     position: relative;
     gap: 30px;
     margin-top: 20px;
-    color: white;
+    color: rgb(17, 17, 17);
     font-size: 1.3rem;
     margin-right: 3rem;   
     cursor: pointer;
@@ -194,26 +193,65 @@ input:focus, textarea:focus, select:focus{
   }
 
 
+  .section2 {
+    background-color: rgba(211, 211, 211, 0.37);
+    margin-top: 1rem;
+  }
+  
   .middleText {
       text-align: center;
       padding-top: 2rem;
+      font-size: 1.3rem;
+  }
+  .iconRow {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+      margin: 20px;
+      border-radius: 15px;
+      padding: 30px;
+  }
+  .iconRow i {
+      font-size: 3rem;
+      color: rgb(49, 218, 7);
   }
 
+  .firstRow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .firstRow h3 {
+      font-size: 1.3rem;
+      width: 300px;
+      margin-top: 2rem;
+  }
 
   .section3 {
       display: flex;
       align-items: center;
       justify-content: space-around;
       padding: 20px;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hiking.jfif');
-      margin-top: 2rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hiking.jfif');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 500px;
   }
   .section3 .leftText {
       font-size: 2rem;
       color: white;
+      max-width: 600px;
+  }
+  .leftText h4 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+  }
+  .leftText .greenAdventure {
+      color: rgb(49, 218, 7);
   }
   .trailPic img {
       width: 500px;
+  }
+  .treezuColor {
+    color: rgb(49, 218, 7);
   }
