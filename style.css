@@ -195,13 +195,20 @@ input:focus, textarea:focus, select:focus{
 
   .section2 {
     background-color: rgba(211, 211, 211, 0.37);
-    margin-top: 1rem;
   }
   
   .middleText {
       text-align: center;
       padding-top: 2rem;
       font-size: 1.3rem;
+  }
+  .middleText hr {
+      width: 100px;
+      margin: auto;
+      background-color: rgb(49, 218, 7);
+      height: 5px;
+      border: none;
+      margin-top: 1rem;
   }
   .iconRow {
       display: flex;
@@ -213,13 +220,26 @@ input:focus, textarea:focus, select:focus{
   }
   .iconRow i {
       font-size: 3rem;
-      color: rgb(49, 218, 7);
+      background:-moz-linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%); 
+      background: -webkit-linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%); 
+      background: linear-gradient(0.25turn, #475f58 0%, #8B9D83 100%);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color:transparent;
   }
 
   .firstRow {
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+  .firstRow #underIcon {
+      background-color: rgb(49, 218, 7);
+      border: none;
+      height: 2px;
+      width: 50px;
+      margin-top: .5rem;
   }
   .firstRow h3 {
       font-size: 1.3rem;
@@ -238,9 +258,9 @@ input:focus, textarea:focus, select:focus{
       height: 500px;
   }
   .section3 .leftText {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: white;
-      max-width: 600px;
+      max-width: 650px;
   }
   .leftText h4 {
       margin-top: 2rem;
@@ -249,9 +269,30 @@ input:focus, textarea:focus, select:focus{
   .leftText .greenAdventure {
       color: rgb(49, 218, 7);
   }
+  .leftText hr {
+      width: 100px;
+      margin-top: 1rem;
+      height: 5px;
+      background-color: rgb(49, 218, 7);
+      border: none;
+  }
   .trailPic img {
       width: 500px;
   }
   .treezuColor {
     color: rgb(49, 218, 7);
+  }
+  .btnPro {
+      background-color: transparent;
+      border: 2px solid;
+      color: rgb(49, 218, 7);
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      transition: all 0.5s ease;
+  }
+  .btnPro:hover {
+      color: white;
+      cursor: pointer;
   }
