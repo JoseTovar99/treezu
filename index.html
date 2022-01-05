@@ -20,7 +20,10 @@
                     <img src="img/logo (14).png" alt="" style="width: 150px;">
                     </a>
                 </div>
-                <div class="nav">
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav" id="nav">
                     <h3>Trails</h3>
                     <h3>Challenges</h3>
                     <h3>Treezu Pro</h3>
@@ -35,7 +38,7 @@
             <div class="searchBar" style="max-width:600px;margin:auto">
                 <form>
                     <i class="fas fa-search"></i>
-                    <input id="searchInput" type="text" placeholder="Search popular trails, camping sites, or local destinations">
+                    <input id="searchInput" type="text" placeholder="Search trails, camp sites, or local destinations">
                 </form>
             </div>
         </div>
@@ -54,9 +57,7 @@
 
                     <span class="tag">Camping</span>
 
-                    <span class="tag">Dog-friendly</span>
-
-                    <span class="tag">Free parking</span>
+                    <span class="tag">Dogs</span>
 
                     <div class="name">Joaquin Miller Park</div>
 
@@ -71,8 +72,8 @@
                         <div class="reviewCount">(2.1K)</div>
                     </div>
 
-                    <p>Located in the Oakland Hills.</p>
-                    <p>Total length is 5.8 miles.</p>
+                    <p class="pSize">Located in the Oakland Hills.</p>
+                    <p class="pSize">Total length is 5.8 miles.</p>
                     
 
                 </div>
@@ -85,9 +86,7 @@
 
                     <span class="tag">Boat rides</span>
 
-                    <span class="tag">Dog-friendly</span>
-
-                    <span class="tag">Fishing</span>
+                    <span class="tag">Dogs</span>
 
 
                     <div class="name">Lake Chabot Regional Park</div>
@@ -103,8 +102,8 @@
                         <div class="reviewCount">(2.8K)</div>
                     </div>
 
-                    <p>Located in Castro Valley.</p>
-                    <p>Total length is 9.4 miles.</p>
+                    <p class="pSize">Located in Castro Valley.</p>
+                    <p class="pSize">Total length is 9.4 miles.</p>
                 </div>
             </div>
             <div class="card">
@@ -113,11 +112,9 @@
                 <div class="card_details">
                     <span class="tag">Local</span>
 
-                    <span class="tag">Dog-friendly</span>
+                    <span class="tag">Dogs</span>
 
-                    <span class="tag">Free parking</span>
-
-                    <span class="tag">City view</span>
+                    <span class="tag">Parking</span>
 
                     <div class="name">Martin Luther King Jr Shoreline</div>
 
@@ -131,8 +128,8 @@
                         <div class="reviewCount">(1.5K)</div>
                     </div>
 
-                    <p>Located in East Oakland.</p>
-                    <p>Total length is 3.5 miles.</p>
+                    <p class="pSize">Located in East Oakland.</p>
+                    <p class="pSize">Total length is 3.5 miles.</p>
                 </div>
             </div>
           </div>
@@ -251,5 +248,7 @@
     <div class="copyright">
         <p class="footerColor">Copyright ©2022 Jose Tovar</p>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@ html {
 }
 .exploreFlex {
     display: flex;
+    flex-wrap: wrap;
     align-items: center; 
     justify-content: space-between;
     padding-top: 10px;
@@ -72,7 +73,18 @@ html {
     color: rgb(145, 145, 145);
 }
 
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
 
+.hamburger:focus {
+    outline: none;
+}
 .searchTitle {
     color: white;
     text-align: center;
@@ -106,7 +118,7 @@ html {
     border: none;
     width: 100%;
 	padding: 10px;
-	text-align: center;
+    text-align: center;
 }
 .searchBar .fas {
     color: white;
@@ -458,5 +470,104 @@ input:focus, textarea:focus, select:focus{
     .stars {
         font-size: .6rem;
     }
+    .firstRow h3 {
+        font-size: 1rem;
+        width: 200px;
+    }
+    .firstRow i {
+        font-size: 1.5rem;
+    }
     
+  }
+
+  @media (max-width: 950px) {
+    .card img {
+        width: 200px;
+        height: 100px;
+    }
+    .card__details .pSize {
+        font-size: .2rem;
+    }
+    .trailPic img {
+        width: 350px;
+    }
+    .leftText h2 {
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .leftText h4 {
+        font-size: .8rem;
+        width: 200px;
+    }
+    .section4 img {
+        width: 250px;
+    }
+    .campingTitle h2 {
+        font-size: 1rem;
+        width: 200px;
+    }
+    .nav h3 {
+        font-size: 1rem;
+    }
+    .exploreText img {
+        transform: scale(.8);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .firstRow h3 {
+        width: 150px;
+        margin-left: 2rem;
+    }
+    .popularTitle {
+        font-size: 1rem;
+    }
+    .name {
+        font-size: 1rem;
+    }
+    .pSize {
+        font-size: .8rem;
+    }
+    .reviewCount {
+        font-size: .6rem;
+    }
+    .card img {
+        width: 150px;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .nav.show {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .searchBar #searchInput {
+        width: 80%;
+    }
+    .card {
+        transform: scale(.8);
+    }
+    .searchTitle h1 {
+        font-size: 2.5rem;
+    }
+    .popularTitle h3 {
+        text-align: center;
+    }
+    .trailPic img {
+        width: 250px;
+    }
+    .leftText h2 {
+        width: 200px;
+    }
   }
