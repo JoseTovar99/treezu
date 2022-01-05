@@ -555,9 +555,6 @@ input:focus, textarea:focus, select:focus{
     .searchBar #searchInput {
         width: 80%;
     }
-    .card {
-        transform: scale(.8);
-    }
     .searchTitle h1 {
         font-size: 2.5rem;
     }
@@ -569,5 +566,51 @@ input:focus, textarea:focus, select:focus{
     }
     .leftText h2 {
         width: 200px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .card img {
+        width: 120px;
+    }
+    .card {
+        width: 130px;
+    }
+    .name {
+        font-size: .8rem;
+    }
+    .pSize {
+        font-size: .6rem;
+    }
+    .tag {
+    }
+
+  }
+
+  @media (max-width: 550px) {
+    .card img {
+        width: 100px;
+    }
+    .card {
+        width: 110px;
+    }
+    .firstRow h3 {
+        font-size: .7rem;
+        width: 100px;
+    }
+    .section4 img {
+        width: 200px;
+    }
+    .campingTitle h2 {
+        font-size: .6rem;
+        width: 130px;
+    }
+    .btnPro2 {
+        font-size: .4rem;
+        padding: 5px;
+    }
+    .campingTitle hr {
+        height: 1.5px;
+        width: 40px;
     }
   }
