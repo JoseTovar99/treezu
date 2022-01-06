@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@700&family=Urbanist&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <title>Treezu</title>
@@ -32,10 +33,10 @@
             </div>
         </div>
         <div class="searchSection">
-            <div class="searchTitle">
+            <div data-aos="fade-up" data-aos-duration="3000" class="searchTitle">
                 <h1>Adventure Awaits.</h1>
             </div>
-            <div class="searchBar" style="max-width:600px;margin:auto">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="searchBar" style="max-width:600px;margin:auto">
                 <form>
                     <i class="fas fa-search"></i>
                     <input id="searchInput" type="text" placeholder="Search trails, camp sites, or local destinations">
@@ -43,13 +44,13 @@
             </div>
         </div>
         <div class="popularTrails">
-            <div class="popularTitle">
+            <div data-aos="fade-right" data-aos-duration="1500" class="popularTitle">
                 <h3>Local Favorites Near You</h3>
             </div>
 
           <div class="cardFlex">
 
-            <div class="card">
+            <div  data-aos="fade-right" data-aos-duration="1000" class="card">
                 <img src="img/joaquin.jpg" alt="">
 
                 <div class="card_details">
@@ -78,7 +79,7 @@
 
                 </div>
             </div>
-            <div class="card">
+            <div  data-aos="fade-right" data-aos-duration="1000" class="card">
                 <img src="img/lakechabot.jpg" alt="">
 
                 <div class="card_details">
@@ -106,7 +107,7 @@
                     <p class="pSize">Total length is 9.4 miles.</p>
                 </div>
             </div>
-            <div class="card">
+            <div  data-aos="fade-right" data-aos-duration="1000" class="card">
                 <img src="img/mlk.jpg" alt="">
 
                 <div class="card_details">
@@ -250,5 +251,13 @@
     </div>
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            disable: 'mobile'
+        });
+
+      </script>
 </body>
 </html>

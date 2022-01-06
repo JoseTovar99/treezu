@@ -439,6 +439,9 @@ input:focus, textarea:focus, select:focus{
      .stars {
          font-size: 1.2rem;
      }
+     .container {
+         height: 950px;
+     }
   }
 
 
