@@ -415,6 +415,33 @@ input:focus, textarea:focus, select:focus{
   }
 
 
+  /*Monitor Media Queries*/
+
+  @media (min-width: 1700px) {
+     .card {
+
+     }
+     .card img {
+         width: 500px;
+     }
+     .name {
+         font-size: 1.8rem;
+     }
+     .tag {
+         font-size: 1rem;
+     }
+     .reviewCount {
+         font-size: 1.3rem;
+     }
+     .pSize {
+         font-size: 1.4rem;
+     }
+     .stars {
+         font-size: 1.2rem;
+     }
+  }
+
+
   /*Mobile Media Queries*/
 
   @media (max-width: 1400px) {
