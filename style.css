@@ -134,7 +134,8 @@ html {
     padding: 15px;
     font-size: 1.3rem;
     border: none;
-    width: 100%;
+    width: 85%;
+
 	padding: 10px;
     text-align: center;
 }
@@ -616,6 +617,9 @@ input:focus, textarea:focus, select:focus{
         padding-right: 20px;
         margin-top: 20px;
     }
+    .loginSection {
+        display: none;
+    }
   }
 
   @media (max-width: 700px) {
@@ -650,6 +654,9 @@ input:focus, textarea:focus, select:focus{
         font-size: .6rem;
     }
     .tag {
+    }
+    .container {
+
     }
 
   }
