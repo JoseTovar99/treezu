@@ -1,4 +1,4 @@
-* {
+*, body, html {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -442,6 +442,24 @@ input:focus, textarea:focus, select:focus{
      }
      .container {
          height: 950px;
+     }
+     .firstColumn h3 {
+         font-size: 1.7rem;
+     }
+     .firstColumn h5 {
+         font-size: 1.2rem;
+     }
+     .firstRow h3 {
+         font-size: 1.7rem;
+     }
+     .iconRow i {
+         font-size: 4rem;
+     }
+     .firstRow #underIcon {
+         height: 5px;
+     }
+     .middleText h1 {
+         font-size: 3.5rem;
      }
   }
 
