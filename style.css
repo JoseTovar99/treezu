@@ -72,24 +72,6 @@ html {
 .nav h3:hover {
     color: rgb(145, 145, 145);
 }
-.rightFlex {
-    display: flex;
-    align-items: center;
-}
-.loginSection {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    margin-right: 25px;
-    border: 2.5px solid green;
-    border-radius: 15px;
-    padding: 5px;
-    transition: all 0.5s ease;
-}
-.loginSection:hover {
-    cursor: pointer;
-    color: rgb(11, 240, 11);
-}
 
 .hamburger {
     background-color: transparent;
@@ -616,9 +598,6 @@ input:focus, textarea:focus, select:focus{
         display: block;
         padding-right: 20px;
         margin-top: 20px;
-    }
-    .loginSection {
-        display: none;
     }
   }
 
