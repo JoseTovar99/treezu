@@ -360,6 +360,37 @@ input:focus, textarea:focus, select:focus{
       margin-top: 1rem;
   }
 
+  .campRatingTitle{
+      text-align: center;
+      margin-top: 2rem;
+      padding-bottom: 2rem;
+      font-size: 1.5rem;
+  }
+
+  .imageDescrFlex {
+      display: flex;
+      justify-content: center;
+  }
+
+  .campDescription {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      gap: 20px;
+  }
+  .campDescription h2 {
+      text-decoration: underline;
+      text-underline-offset: 5px;
+  }
+
+  .imageChange img {
+      width: 600px;
+      border-radius: 35px;
+      padding: 20px;
+  }
+
+
+
   footer {
       padding: 10px;
   }
