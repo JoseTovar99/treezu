@@ -206,9 +206,11 @@
             <h2>Top-Rated Camping Sites</h2>            
         </div>
         <div class="btnChange">
-            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/Camp1.JPG'; document.getElementById('demo').innerHTML = 'Sequoia National Park'">Sequoia</button>
-            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/yosemite2.JPG'; document.getElementById('demo').innerHTML = 'Yosemite National Park'">Yosemite</button>
-            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/Camp3.JPEG'; document.getElementById('demo').innerHTML = 'Crater Lake National Park'">Crater Lake</button>
+            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/Camp1.JPG'; document.getElementById('demo').innerHTML = 'Sequoia National Park'; document.getElementById('descrChange').innerHTML = 'Huge mountains, rugged foothills, deep canyons, vast caverns, and the worlds largest trees.'; document.getElementById('ratingChange').innerHTML = '(12.5k)'">Sequoia</button>
+
+            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/Camp5.JPG'; document.getElementById('demo').innerHTML = 'Yosemite National Park'; document.getElementById('descrChange').innerHTML = 'It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall.'; document.getElementById('ratingChange').innerHTML = '(38.3k)'">Yosemite</button>
+
+            <button class="btnFullScreen" onclick="document.getElementById('CampSection').src='img/Camp3.JPEG'; document.getElementById('demo').innerHTML = 'Crater Lake National Park'; document.getElementById('descrChange').innerHTML = 'It’s known for its namesake Crater Lake, formed by the now-collapsed volcano, Mount Mazama. Wizard Island is a cinder cone near the western edge of the lake.'; document.getElementById('ratingChange').innerHTML = '(11.7k)'">Crater Lake</button>
         </div>
         <div class="imageDescrFlex">
             <div class="imageChange">
@@ -216,7 +218,7 @@
             </div>
             <div class="campDescription">
                 <h2 id="demo">Sequoia National Park</h2>
-                <h3>Huge mountains, rugged foothills, deep canyons, vast caverns, and the world's largest trees.</h3>
+                <h3 id="descrChange">Huge mountains, rugged foothills, deep canyons, vast caverns, and the world's largest trees.</h3>
                 <div class="ratingFlex">
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -225,7 +227,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <div class="reviewCount">(1.5K)</div>
+                    <div id="ratingChange" class="reviewCount">(12.5K)</div>
                 </div>
                 <div class="mapApi">
                     <iframe width="425" height="225" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-119.39117431640626%2C36.110143066608245%2C-118.10577392578125%2C36.88071909009633&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small></small>
