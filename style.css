@@ -364,7 +364,12 @@ input:focus, textarea:focus, select:focus{
       text-align: center;
       margin-top: 2rem;
       padding-bottom: 2rem;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+  }
+
+  .ratingFlex {
+      display: flex;
+      gap: 10px;
   }
 
   .imageDescrFlex {
@@ -376,11 +381,13 @@ input:focus, textarea:focus, select:focus{
       display: flex;
       flex-direction: column;
       margin-top: 1rem;
-      gap: 20px;
+      gap: 10px;
+      width: 600px;
   }
   .campDescription h2 {
       text-decoration: underline;
       text-underline-offset: 5px;
+      font-size: 2rem;
   }
 
   .imageChange img {
