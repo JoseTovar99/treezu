@@ -402,6 +402,7 @@ input:focus, textarea:focus, select:focus{
       justify-content: center;
       align-items: center;
       gap: 2rem;
+      margin-bottom: 2rem;
   }
   .btnChange button {
     border: 3px solid rgb(49, 218, 7);
