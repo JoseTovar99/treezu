@@ -382,7 +382,7 @@ input:focus, textarea:focus, select:focus{
       flex-direction: column;
       margin-top: 1rem;
       gap: 10px;
-      width: 600px;
+      width: 500px;
   }
   .campDescription h2 {
       text-decoration: underline;
