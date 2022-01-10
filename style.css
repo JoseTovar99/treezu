@@ -374,6 +374,7 @@ input:focus, textarea:focus, select:focus{
 
   .imageDescrFlex {
       display: flex;
+      gap: 2rem;
       justify-content: center;
   }
 
@@ -396,6 +397,23 @@ input:focus, textarea:focus, select:focus{
       padding: 20px;
   }
 
+  .btnChange {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+  }
+  .btnChange button {
+    border: 3px solid rgb(49, 218, 7);
+    padding: 5px;
+    background-color: transparent;
+    transition: all 0.5s ease;
+  }
+  .btnChange button:hover {
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      background-color: black;
+  }
 
 
   footer {
