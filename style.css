@@ -372,6 +372,14 @@ input:focus, textarea:focus, select:focus{
       padding-bottom: 2rem;
       font-size: 1.8rem;
   }
+  .campRatingTitle hr {
+    width: 200px;
+    height: 4px;
+    background-color: rgb(45, 173, 6);
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+  }
 
   .ratingFlex {
       display: flex;
