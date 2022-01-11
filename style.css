@@ -360,6 +360,12 @@ input:focus, textarea:focus, select:focus{
       margin-top: 1rem;
   }
 
+
+  .section5 {
+    background-color: rgba(211, 211, 211, 0.37);
+
+  }
+
   .campRatingTitle{
       text-align: center;
       margin-top: 2rem;
@@ -414,6 +420,10 @@ input:focus, textarea:focus, select:focus{
       color: rgb(255, 255, 255);
       cursor: pointer;
       background-color: black;
+  }
+
+  .mapApi img{
+      width: 300px;
   }
 
 
