@@ -1,6 +1,6 @@
 # Treezu
 
-### Treezu is an AllTrails inspired remake. It includes different feature sections such as reservations, Treezu Pro, and much more. It was designed entirely through Figma and was turned into a real site using HTML, CSS, and JavaScript. 
+### Treezu is a nature-inspired website. It includes different feature sections such as reservations, Treezu Pro, and much more. It was designed entirely through Figma and was turned into a real site using HTML, CSS, and JavaScript. 
 
 ![image](https://user-images.githubusercontent.com/62781023/151746940-09c41eb2-fb6c-48d9-928d-15c109af6184.png)
 
