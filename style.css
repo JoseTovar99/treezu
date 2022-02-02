@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html {
-   
-}
-
 .container {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/yosemite2.jpg') fixed;
 
@@ -68,9 +64,6 @@ html {
   transform: scaleX(1);
   transform-origin: bottom left;
   cursor: pointer;
-}
-.nav h3:hover {
-    color: rgb(145, 145, 145);
 }
 
 .hamburger {
@@ -602,7 +595,12 @@ input:focus, textarea:focus, select:focus{
     .firstRow i {
         font-size: 1.5rem;
     }
-    
+    .imageDescrFlex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
   }
 
   @media (max-width: 950px) {
@@ -707,10 +705,11 @@ input:focus, textarea:focus, select:focus{
     .pSize {
         font-size: .6rem;
     }
-    .tag {
+    .imageChange img {
+        width: 400px;
     }
-    .container {
-
+    .campDescription {
+        margin-left: 3rem;
     }
 
   }
@@ -767,6 +766,13 @@ input:focus, textarea:focus, select:focus{
     .section3 {
         height: 300px;
     }
+    .mapApi {
+        transform: scale(.8);
+    }
+    #demo, #descrChange, .ratingFlex {
+        width: 350px;
+        margin-left: 3rem;
+    }
   }
 
   @media (max-width: 470px) {
@@ -791,6 +797,9 @@ input:focus, textarea:focus, select:focus{
         display: flex;
         flex-direction: column;
     }
+    .imageChange img {
+        width: 300px;
+    }
   }
 
   @media (max-width: 420px) {
@@ -810,5 +819,8 @@ input:focus, textarea:focus, select:focus{
     .campingTitle h2 {
         font-size: .5rem;
         width: 100px;
+    }
+    .campRatingTitle h2 {
+        font-size: 2rem;
     }
   }
